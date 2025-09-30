@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "authorizedprojectnew"
+version = "0.1.0"
+description = ""
+authors = ["alex <dr.p163@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.116.1"
+uvicorn = "^0.35.0"
+sqlalchemy = "^2.0.41"
+alembic = "^1.16.4"
+spglib = "^2.6.0"
+asyncpg = "^0.30.0"
+psycopg2-binary = "^2.9.10"
+jwt = "^1.4.0"
+python-multipart = "^0.0.20"
+pyjwt = "^2.10.1"
+ruff = "^0.12.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
